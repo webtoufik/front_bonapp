@@ -8,7 +8,10 @@ const Menu = (props) => {
       <a href='/'>Accueil</a>
       <a href='/contact'>Contact</a>
       <a href='/customers'>Clients</a>
-      
+      <a href='/customers'>Véhicules</a>
+      <a href='/customers'>Bons</a>
+      <a href='/customers'>Utilisateurs</a>
+      <a href='/customers'>Chauffeurs</a>
     </>
   )
 }
