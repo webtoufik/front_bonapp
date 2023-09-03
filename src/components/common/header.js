@@ -8,6 +8,7 @@ const Header = (props) => {
     return (
     <nav className='flex justify-between items-center p-8 shadow'>
       <Image
+      className='shadow-xl hover:shadow-sm hover:scale-95 transition duration-300'
         src={logoTns}
         alt="Logo TNS"
         width= {100}

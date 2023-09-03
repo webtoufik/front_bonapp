@@ -5,13 +5,13 @@ const Menu = (props) => {
 
   return (
     <>
-      <a href='/'>Accueil</a>
-      <a href='/contact'>Contact</a>
-      <a href='/customers'>Clients</a>
-      <a href='/customers'>Véhicules</a>
-      <a href='/customers'>Bons</a>
-      <a href='/customers'>Utilisateurs</a>
-      <a href='/customers'>Chauffeurs</a>
+      <a className="hover:text-red-600 hover:text-xl" href='/'>Accueil</a>
+      <a className="hover:text-red-600 hover:text-xl" href='/contact'>Contact</a>
+      <a className="hover:text-red-600 hover:text-xl" href='/customers'>Clients</a>
+      <a className="hover:text-red-600 hover:text-xl" href='/vehicles'>Véhicules</a>
+      <a className="hover:text-red-600 hover:text-xl" href='/vouchers'>Bons</a>
+      <a className="hover:text-red-600 hover:text-xl" href='/users'>Utilisateurs</a>
+      <a className="hover:text-red-600 hover:text-xl" href='/drivers'>Chauffeurs</a>
     </>
   )
 }
