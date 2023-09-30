@@ -21,7 +21,7 @@ export async function getServerSideProps(context) {
 
     console.log('truck id', id)
 
-    const res = await fetch(`http://localhost:9500/api/v1/truck/${id}`)
+    const res = await fetch(`${process.env.BACKEND_URL}/api/v1/truck/${id}`)
     const truck = await res.json()
     console.log('truck', truck)
 

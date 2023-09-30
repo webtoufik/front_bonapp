@@ -6,7 +6,6 @@ const Menu = (props) => {
   const pathname = usePathname()
   console.log('pathname: ', pathname)
 
-
   return (
     <>
       <a className={pathname === '/' ? 'active' : 'hover:text-red-600 hover:text-xl'} href='/'>Accueil</a>

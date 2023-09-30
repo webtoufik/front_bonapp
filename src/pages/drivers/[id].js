@@ -22,7 +22,7 @@ export async function getServerSideProps(context) {
 
     console.log('driver id', id)
 
-    const res = await fetch(`http://localhost:9500/api/v1/driver/${id}`)
+    const res = await fetch(`${process.env.BACKEND_URL}/api/v1/driver/${id}`)
     const driver = await res.json()
     console.log('driver', driver)
 
