@@ -1,11 +1,11 @@
 import Header from '../components/common/header';
 import Image from 'next/image'
 import { Inter } from 'next/font/google';
-import camionHomepage from '../../public/images/camion1.png'
-import chauffeur from '../../public/icones/ouvrier_icone.png'
-import camion from '../../public/icones/camion_benne_icone.png'
-import document from '../../public/icones/document_icone.png'
-import qualite from '../../public/icones/qualite_icone.png'
+import camionHomepage from '../../public/images/camion1.png';
+import chauffeur from '../../public/icones/ouvrier_icone.png';
+import camion from '../../public/icones/camion_benne_icone.png';
+import document from '../../public/icones/document_icone.png';
+import qualite from '../../public/icones/qualite_icone.png';
 
 const inter = Inter({ subsets: ['latin'] })
 
