@@ -17,15 +17,12 @@ export default function Contact() {
             alert("Votre message à bien été envoyé, Merci !");
             formReset.reset();
         }).catch(err=> console.log("erreur d'envoi du mail", err))
-
-        
-
     }
 
     return (
         <>
             <Header />
-            <div className="flex flex-col md:flex-row">
+            <div className="flex flex-col text-center md:flex-row">
                 {/* Bloc des informations de contact */}
                 <div className="flex flex-col justify-center items-center md:w-1/2 p-6">
                     <h2 className="text-2xl font-bold mb-8">Vous souhaitez obtenir des informations ?</h2>
@@ -39,7 +36,7 @@ export default function Contact() {
                 </div>
 
                 {/* Bloc du formulaire de contact */}
-                <div className="md:w-1/2 p-6">
+                <div className="sm:w-1/2 p-6">
                     <h2 className="text-2xl font-bold mb-4">Contactez-nous !</h2>
                     <form id='form' onSubmit={sendEmail}>
                         <div className="mb-4">
@@ -58,7 +55,7 @@ export default function Contact() {
                             <label htmlFor="message" className="block text-gray-700 font-bold">Message :</label>
                             <textarea id="message" name="message" className="w-full border rounded-lg py-2 px-3" required="required"></textarea>
                         </div>
-                        <button type="submit" className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg">Envoyer</button>
+                        <button type="submit" className="bg-red-500 hover:bg-red-800 hover:shadow-sm hover:scale-95 transition duration-300 text-white font-bold py-2 px-4 rounded-lg">Envoyer</button>
                     </form>
                 </div>
             </div>
